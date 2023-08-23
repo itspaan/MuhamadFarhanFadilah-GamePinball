@@ -1,0 +1,276 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1692801340847065, "dur":1133, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340848209, "dur":102, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340848344, "dur":346, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340848940, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Builds/Muhamad Farhan Fadilah -GamePinball_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1692801340848722, "dur":3034, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340851757, "dur":145666, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340997424, "dur":250, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340997674, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801340997939, "dur":759, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1692801340848840, "dur":2925, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692801340851768, "dur":1343, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1692801340853174, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692801340853320, "dur":600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1692801340853921, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1692801340854204, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340854270, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340854411, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340854618, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340854896, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340855378, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340855481, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\Project\\Muhamad Farhan Fadilah -GamePinball\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1692801340853173, "dur":2777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692801340856456, "dur":136541, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692801340993936, "dur":2849, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692801340993935, "dur":2852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Muhamad Farhan Fadilah -GamePinball_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1692801340996809, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1692801340849010, "dur":2795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340851810, "dur":236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340852047, "dur":1068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340853164, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1692801340853121, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1692801340853884, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1692801340855805, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340855992, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1692801340856781, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1692801340857598, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball.exe" }}
+,{ "pid":12345, "tid":2, "ts":1692801340858748, "dur":4087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340862930, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340863968, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340864822, "dur":719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340865626, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340866443, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340867215, "dur":913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340868174, "dur":863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340869087, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340869802, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340869854, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340870350, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340872391, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340873495, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340876011, "dur":244, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340877460, "dur":189, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340876275, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340877779, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1692801340878157, "dur":4841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340883051, "dur":26907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1692801340909980, "dur":87444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340848897, "dur":2885, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340851786, "dur":263, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340852049, "dur":1074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340853148, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340869962, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1692801340870712, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692801340871894, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340872007, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692801340872865, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340872968, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692801340874877, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692801340875627, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340875759, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692801340877122, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340883243, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1692801340877407, "dur":5900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1692801340883337, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1692801340884926, "dur":7253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1692801340892194, "dur":105303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340848885, "dur":2887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340851777, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340852029, "dur":1090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340853167, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1692801340853122, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1692801340854050, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1692801340855978, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1692801340856790, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1692801340857657, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340858770, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340861920, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340864559, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340865187, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340866624, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340867319, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340868308, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340869334, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340869453, "dur":491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340869960, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340870047, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340870729, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340870837, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340872735, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340872952, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340874467, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340875420, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340876843, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340878180, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1692801340878558, "dur":8455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1692801340887287, "dur":4917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1692801340892232, "dur":105222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692801340848932, "dur":2857, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692801340851793, "dur":291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692801340852084, "dur":1038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692801340853160, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1692801340896561, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1692801340897395, "dur":100049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340849064, "dur":2752, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340851819, "dur":265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340852084, "dur":1052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340853148, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692801340853136, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692801340870531, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1692801340871144, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340871235, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340872458, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340872664, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340873973, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340874339, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340875335, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340876449, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340876550, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340877357, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340877446, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340882117, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1692801340882219, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1692801340884509, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1692801340885603, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1692801340886069, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1692801340887818, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1692801340892780, "dur":104685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692801340849117, "dur":2706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692801340851828, "dur":255, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692801340852083, "dur":1049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692801340853153, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1692801340896965, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1692801340897564, "dur":99870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340849154, "dur":2684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340851842, "dur":223, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340852065, "dur":1055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340853153, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340869636, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1692801340871786, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340872474, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340872656, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340873608, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340873804, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340874568, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340875510, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340876705, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340876993, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340881769, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1692801340881850, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340882861, "dur":6188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1692801340889065, "dur":108353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340849184, "dur":2670, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340851858, "dur":180, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340852038, "dur":1079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340853800, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1692801340855975, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1692801340856768, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1692801340857680, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1692801340858270, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/Muhamad Farhan Fadilah -GamePinball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1692801340858728, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1692801340862069, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340862947, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340864257, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340864842, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340865818, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340866618, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340867289, "dur":650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340867996, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340868677, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340869550, "dur":625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340870230, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340871321, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340872202, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340872279, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340873514, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340873605, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340875851, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340876072, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340877081, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340877242, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340878760, "dur":2572, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1692801340881369, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1692801340883068, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1692801340885326, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1692801340887124, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1692801340888523, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1692801340891070, "dur":106422, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340849222, "dur":2645, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340851867, "dur":1246, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340853162, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340870273, "dur":679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1692801340871018, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340872483, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340872647, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340874081, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340874179, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340875129, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340876586, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340877548, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340876666, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340877777, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340877960, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340881768, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1692801340881880, "dur":1104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1692801340883060, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1692801340886224, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1692801340886776, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/level2" }}
+,{ "pid":12345, "tid":10, "ts":1692801340888607, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1692801340890800, "dur":106616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340849260, "dur":2620, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340851880, "dur":1234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340853152, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\UNITY\\2022.3.7f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1692801340853121, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1692801340869799, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1692801340870851, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340870953, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692801340872114, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340872275, "dur":3518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692801340875817, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340876078, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692801340877351, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340877452, "dur":4111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692801340881583, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1692801340881675, "dur":5018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1692801340886724, "dur":5100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1692801340891870, "dur":105607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340849300, "dur":2592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340851893, "dur":1225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340853139, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340853789, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1692801340855891, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340856194, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1692801340856672, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340856805, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1692801340857639, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340862356, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340863025, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340863304, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340864639, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340864735, "dur":794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340865618, "dur":1149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340866783, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340866882, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340867534, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340868408, "dur":729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340869187, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340869880, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340870635, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340871896, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340872990, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340873179, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340874227, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340875052, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340876335, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340876458, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340877314, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340878182, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1692801340878553, "dur":3923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340882584, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1692801340883304, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1692801340886000, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1692801340886971, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/Muhamad Farhan Fadilah -GamePinball_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1692801340889928, "dur":107498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1692801341000291, "dur":706, "ph":"X", "name": "ProfilerWriteOutput" }
+,
